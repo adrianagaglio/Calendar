@@ -6,7 +6,7 @@ Semplice demo di calendario che mostra il mese corrente e permette di inserire a
 
 - Se non hai Docker installato, segui le istruzioni dal sito ufficiale: [Docker](https://docs.docker.com/desktop/)
 - Esegui `docker build . -t calendar-app` per creare l'immagine dell'applicazione con tutte le dipendenze necessarie al suo funzionamento
-- Esegui `docker -d --name calendar-container -p 4200:4200 benchmark-app:lates` per creare ed eseguire il container per avviare l'applicazione
+- Esegui `docker -d --name calendar-container -p 4200:4200 benchmark-app:latest` per creare ed eseguire il container per avviare l'applicazione
 - Naviga `http://localhost:4200/`
 
 ## Eseguire l'applicazione sulla tua macchina locale
